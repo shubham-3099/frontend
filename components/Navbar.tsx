@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Navbar() {
     return (
-        <nav className="flex justify-between px-12 items-center h-18">
+        <nav className="flex justify-between md:px-12 px-5 items-center h-18">
             <Image src="/logo.png" alt="Logo of the company" width={100} height={70} />
             <ul className="hidden md:flex gap-8">
                 <li><a href="/">Home</a></li>
