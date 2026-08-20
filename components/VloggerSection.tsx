@@ -1,6 +1,6 @@
 import Image from "next/image";
 import IdeaFeature from "./IdeaFeature";
-import { ChevronRight, MapPin, CircleDollarSign, Image as ImageIcon } from "lucide-react";
+import { ChevronRight, MapPin, CircleDollarSign, Image as ImageIcon, CircleUser } from "lucide-react";
 
 export default function VloggerSection() {
     return (
@@ -9,11 +9,11 @@ export default function VloggerSection() {
             <div className="flex flex-col gap-6 pl-10 justify-center">
                 <h1 className="text-4xl md:text-5xl font-bold md:w-[600px]">Watch the vloggers before you take a bite</h1>
                 <p className="text-lg md:w-[550px]">We embed YouTube food-vlogger reviews directly on the dish page. See the taste test, the texture, and the honest reaction before you commit.</p>
-                {/* <div className="flex flex-col gap-2">
-                    <IdeaFeature icon={ImageIcon} text="High-quality photos of every dish" />
-                    <IdeaFeature icon={CircleDollarSign} text="Transparent pricing with no surprises" />
-                    <IdeaFeature icon={MapPin} text="Location-based results near you" />
-                </div> */}
+                <div className="flex gap-8">
+                    <IdeaFeature icon={CircleUser} text="Shubham" />
+                    <IdeaFeature icon={CircleUser} text="Robin" />
+                    <IdeaFeature icon={CircleUser} text="Akshay" />
+                </div>
                 <div className="flex gap-4 pb-5">
                     <button className="border px-4 py-2"> Search </button>
                     <button className="flex items-center"> Explore <ChevronRight className="w-5 h-4 mt-1" /> </button>
