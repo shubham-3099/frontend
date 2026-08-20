@@ -1,3 +1,5 @@
+import VerticalImageMarquee from "./VerticalImageMarquee";
+
 export default function HeroSection() {
     return (
         <div className="flex flex-col md:flex-row px-5 md:px-30 items-center">
@@ -9,7 +11,9 @@ export default function HeroSection() {
                     <button className="border px-4 py-2">Explore</button>
                 </div>
             </div>
-            <div className="h-[600px] w-full"></div>
+            <div className="h-[650px] w-full">
+                <VerticalImageMarquee />
+            </div>
         </div>
     )
 }
