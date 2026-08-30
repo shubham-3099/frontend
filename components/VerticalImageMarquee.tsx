@@ -46,7 +46,7 @@ function ImageColumn({
 
 export default function VerticalImageMarquee() {
   return (
-    <div className="grid h-[650px] grid-cols-2 gap-4 overflow-hidden">
+    <div className="grid h-[850px] grid-cols-2 gap-4 overflow-hidden">
       <ImageColumn />
       <ImageColumn reverse />
     </div>

@@ -11,7 +11,7 @@ export default function HeroSection() {
                     <button className="border px-4 py-2">Explore</button>
                 </div>
             </div>
-            <div className="h-[650px] w-full">
+            <div className="h-[850px] w-full">
                 <VerticalImageMarquee />
             </div>
         </div>
