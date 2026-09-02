@@ -1,9 +1,9 @@
-import IdeaSection from "@/components/IdeaSection";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
   return (
     <>
-      <IdeaSection />
+      <HeroSection />
     </>
   )
 }

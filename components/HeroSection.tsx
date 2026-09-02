@@ -2,7 +2,7 @@ import Image from "next/image";
 import IdeaFeature from "./IdeaFeature";
 import { ChevronRight, MapPin, CircleDollarSign, Image as ImageIcon } from "lucide-react";
 
-export default function IdeaSection() {
+export default function HeroSection() {
     return (
         <div className="flex flex-col md:flex-row px-5 md:px-30 py-15">
             <div className="flex flex-col gap-6 pr-10 justify-center">
