@@ -1,7 +1,9 @@
+import UserPremium from "@/components/UserPremium";
+
 export default function Premium() {
     return (
         <>
-            <h1>Premium page</h1>
+            <UserPremium />
         </>
     )
 }
