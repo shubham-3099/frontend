@@ -3,7 +3,7 @@ import Home from "@/components/Home";
 
 export default function HomePage() {
     return (
-        <div className="flex flex-col gap-5 mx-8">
+        <div className="flex flex-col gap-5 mx-8 pb-30">
             <div className="flex gap-2 h-10 items-center mt-8">
                 <MapPin size={20} />
                 <p className="font-bold text-sm">72 Outer Circle, New York</p>
