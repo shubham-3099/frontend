@@ -1,5 +1,6 @@
 import { Crown } from "lucide-react";
 import Plan from "./Plan";
+import Link from "next/link";
 
 export default function VloggerPremium() {
     return (
@@ -13,7 +14,9 @@ export default function VloggerPremium() {
                 <Plan offer="Remove Ads" description="Browse, watch and explore without any interruptions" beforePrice="399" afterPrice="99" period="/month" saving="You save 300 (75% OFF)" />
                 <Plan offer="Remove Ads" description="Browse, watch and explore without any interruptions" beforePrice="4788" afterPrice="999" period="/year" saving="You save 3,789 (79% OFF)" />
             </div>
-            <p className="font-bold underline mt-4">Advertise your brand on our app →</p>
+            <Link href="/advertise">
+                <p className="font-bold underline mt-4">Advertise your brand on our app →</p>
+            </Link>
         </div>
     )
 }
