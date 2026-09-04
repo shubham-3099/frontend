@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 export default function HeroSection() {
     const router = useRouter();
     return (
-        <div className="flex flex-col items-center lg:flex-row md:justify-center my-10 md:my-25 md:px-20 gap-10">
+        <div className="flex flex-col items-center lg:flex-row md:justify-center my-10 md:my-10 md:px-20 gap-10">
             <div className="flex flex-col gap-8 justify-center w-[340px] md:w-[600px] md:mr-40">
                 <h1 className="text-4xl md:text-5xl font-bold">The dish comes first, not the restaurant</h1>
                 <p className="text-lg">You know what you want to eat. See the exact plate, the real price, and a clear photo before you ever leave the house.</p>
